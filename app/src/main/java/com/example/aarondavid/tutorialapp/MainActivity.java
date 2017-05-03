@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity
                     case 1: menuIntent = new Intent(MainActivity.this, StateChangeActivity.class);
                             startActivity(menuIntent);
                             break;
+                    case 2: menuIntent = new Intent(MainActivity.this, LoginActivity.class);
+                            startActivity(menuIntent);
+                            break;
                     default: Toast.makeText(MainActivity.this, "This option is not yet available", Toast.LENGTH_SHORT).show();
                 }
 //                Intent menuIntent = new Intent(MainActivity.this, NewActivity.class);
