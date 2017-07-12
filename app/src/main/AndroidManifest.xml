@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.aarondavid.tutorialapp">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,6 +26,8 @@
         <activity android:name=".LoginActivity">
         </activity>
         <activity android:name=".JavaInterfaceActivity">
+        </activity>
+        <activity android:name=".CURLActivity">
         </activity>
     </application>
 
